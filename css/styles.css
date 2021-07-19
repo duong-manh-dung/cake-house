@@ -12,6 +12,12 @@ html, body {
   background-color: #FFFCF9;
 }
 
+/* Header Styles Begin */
+
+.header {
+  width: 100%;
+}
+
 .navbar {
   background-color: #FFFCF9;
 }
@@ -41,6 +47,10 @@ html, body {
   color: #ED8E7C;
 }
 
+.navbar-item.has-dropdown.is-active .navbar-link, .navbar-item.has-dropdown:focus .navbar-link, .navbar-item.has-dropdown:hover .navbar-link {
+    background-color: #FDF6F0;
+}
+
 .button.is-primary {
   background-color: #EF8D21;
   border-color: transparent;
@@ -56,5 +66,17 @@ html, body {
 strong {
   text-shadow: 0px 5px 3px rgba(0, 0, 0, 0.9);
 }
+
+.hero {
+  background-image: url('../images/banner.jpg');
+  background-size: cover;
+  height: 500px;
+}
+
+/* Header Styles End */
+
+/* ============================================= */
+
+/* Main Styles */
 
 .main {}
