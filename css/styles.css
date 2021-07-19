@@ -24,8 +24,8 @@ html, body {
 
 .navbar-item img {
   max-height: 5rem;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
 }
 
 .navbar-burger {
@@ -77,6 +77,100 @@ strong {
 
 /* ============================================= */
 
-/* Main Styles */
+/* Main Styles Begin */
 
-.main {}
+.main {
+  width: 100%;
+  background-color: #FFFCF9;
+}
+
+.cake-intro {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.cake-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.three-cakes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 20px;
+}
+
+.card {
+  margin-right: 20px;
+}
+
+.tea-intro {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.tea-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.three-tea {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 20px;
+}
+
+.introduce-one, .introduce-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.left-intro, .right-intro {
+  padding: 30px 20px;
+}
+
+.intro-img {
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px 3px #000000;
+}
+
+.short-desc {
+  margin-bottom: 10px;
+}
+
+/* Main Styles End */
+
+/* ============================================= */
+
+/* Footer Styles Begin */
+
+.footer {
+  background-color: #363636;
+  padding: 10px 24px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-top: 1px solid #FFFCF9;
+  padding-top: 10px;
+}
+
+.left-footer {
+  color: #FFFCF9;
+}
+
+.right-footer {
+  color: #FFFCF9;
+  text-align: right;
+}
+
+.icon-social {
+  margin-right: 10px;
+}
+
+.icon-social i {
+  font-size: 1.5rem;
+}
+
+/* Footer Styles End */
