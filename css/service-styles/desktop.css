@@ -1,0 +1,34 @@
+.hero.has-carousel {
+  width: 100%;
+    position: relative;
+    height: 700px;
+}
+
+.item-1, .item-2, .item-3 {
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+
+.item-1 {
+  background-image: url('../../images/wedding-cake-banner.jpg');
+}
+
+.item-2 {
+  background-image: url('../../images/event-cake-banner.jpg');
+}
+
+.item-3 {
+  background-image: url('../../images/event-cake-banner-2.jpg');
+}
+
+.item-content {
+  position: absolute;
+  top: 250px;
+  left: 60px;
+}
+
+.title, .content {
+  color: #fffcf9;
+}

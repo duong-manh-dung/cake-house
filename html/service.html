@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dịch vụ</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
+  <link rel="stylesheet" media="only screen and (min-width: 1024px)" href="../css/service-styles/desktop.css">
+  <link rel="stylesheet" href="../css/service-styles/styles.css">
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="../index.html">
+            <img src="../images/cake-house.png" style="border-radius: 50%;">
+          </a>
+
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+
+          </div>
+
+          <div class="navbar-end">
+            <a href="../index.html" class="navbar-item">
+              Trang chủ
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                Menu
+              </a>
+
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  <i class="fas fa-utensil-spoon"></i> &nbsp; &nbsp; Bánh
+                </a>
+                <a class="navbar-item">
+                  <i class="fas fa-mug-hot"></i> &nbsp; &nbsp; Đồ uống
+                </a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a href="service.html" class="navbar-link">
+                Dịch vụ
+              </a>
+
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  <i class="fas fa-church"></i> &nbsp; &nbsp; Tiệc cưới
+                </a>
+                <a class="navbar-item">
+                  <i class="fas fa-glass-cheers"></i> &nbsp; &nbsp; Sự kiện
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item">
+                  <i class="fas fa-marker"></i> &nbsp; &nbsp; Đánh giá cửa hàng
+                </a>
+              </div>
+            </div>
+            <a class="navbar-item">
+              Alo
+            </a>
+            <a class="navbar-item">
+              Chuyện làm bánh
+            </a>
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary">
+                  <strong>Đặt bánh</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <!-- Start Hero Carousel -->
+      <section class="hero is-medium has-carousel">
+        <div id="carousel-demo" class="hero-carousel">
+          <div class="item-1">
+            <div class="item-content">
+              <h1 class="title is-1">Bánh cưới lộng lẫy</h1>
+              <p class="content">Đặt ngay bánh để chúng tôi còn làm</p>
+            </div>
+          </div>
+          <div class="item-2">
+            <div class="item-content">
+              <h1 class="title is-1">Bánh cưới lộng lẫy</h1>
+              <p class="content">Đặt ngay bánh để chúng tôi còn làm</p>
+            </div>
+          </div>
+          <div class="item-3">
+            <div class="item-content">
+              <h1 class="title is-1">Bánh cưới lộng lẫy</h1>
+              <p class="content">Đặt ngay bánh để chúng tôi còn làm</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-head"></div>
+        <div class="hero-body"></div>
+        <div class="hero-foot"></div>
+      </section>
+      <!-- End Hero Carousel -->
+    </main>
+    <footer class="footer">
+
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+  <script>
+    bulmaCarousel.attach('#carousel-demo', {
+      slidesToScroll: 1,
+      slidesToShow: 1,
+      infinite: true,
+      duration: 1500,
+      autoplay: true,
+      autoplaySpeed: 5000,
+      pauseOnHover: true
+    });
+  </script>
+</body>
+
+</html>
