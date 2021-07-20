@@ -1,0 +1,155 @@
+/* Main Styles Begin */
+
+.main {
+  height: 500px;
+  padding: 100px 100px 100px;
+}
+
+.contact-box {
+  background-image: url('../../images/background-contact.jpg');
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.label {
+  color: #ff8601;
+}
+
+.cus-input {
+  border-radius: 10px !important;
+  width: 90% !important;
+  margin-bottom: 15px;
+}
+
+.contact-right {
+  display: table;
+  height: 100%;
+}
+
+.textarea {
+  display: table-cell;
+  vertical-align: middle;
+  border-radius: 10px !important;
+  margin-bottom: 15px;
+}
+
+/* Main Styles End */
+
+/* ============================================= */
+
+/* Footer Styles Begin */
+
+.footer {
+  padding-top: 20px;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+  width: 100%;
+  background-color: #212121;
+}
+
+.top-footer {
+  width: 90%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #FFFCF9;
+  margin: 0 auto 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.top-left,
+.top-center,
+.top-right {
+  text-align: center;
+  height: 40px;
+  padding: 0 30px;
+  margin-bottom: 20px;
+}
+
+.icon-container {
+  height: 30px;
+  width: 30px;
+  background-color: #EF8D21;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+}
+
+.icon-container:hover {
+  background-color: #EF8D99;
+}
+
+.fas {
+  color: #FFFCF9;
+  margin-top: 7px;
+}
+
+.top-content {
+  color: #FFFCF9;
+  margin-bottom: 20px;
+}
+
+.middle-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 40px;
+}
+
+.middle-left {
+  padding-left: 40px;
+}
+
+.is-3 {
+  color: #FFFCF9;
+}
+
+.middle-footer-conter {
+  color: #FFFCF9;
+}
+
+.middle-right {
+  padding-left: 40px;
+}
+
+label {
+  color: #FFFCF9;
+}
+
+.input {
+  width: 50%;
+}
+
+.bottom-footer {
+  text-align: center;
+  background-color: #252525;
+  padding: 40px 0;
+}
+
+.icon-bottom-container {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #FFFCF9;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.icon-bottom-container:hover {
+  border-color: #EF8D21;
+}
+
+.fab {
+  color: #FFFCF9;
+  margin-top: 5px;
+}
+
+.fab:hover {
+  color: #EF8D21;
+}
+
+/* Footer Styles End */
