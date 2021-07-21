@@ -1,0 +1,55 @@
+/* Header Styles Begin */
+
+.hero {
+  background-image: url('../../images/menu-banner.jpg');
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.hero-body {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+
+.story-banner-title {
+  color: #FFFCF9;
+}
+
+.story-banner-content {
+  color: #FFFCF9;
+}
+
+/* Header Styles End */
+
+/* ============================================= */
+
+/* Main Styles Begin */
+
+.card {
+  background-color: #252525;
+  border-radius: 0;
+  margin: 0 10px 0px;
+}
+
+.card-image img, .card-content, .card-footer {
+  border-radius: 0 !important;
+}
+
+.content {
+  color: #FFFCF9;
+}
+
+.card-footer {
+  background-color: #f9f6f2
+}
+
+.icon-card {
+  color: #EF8D21;
+  cursor: pointer;
+}
+
+/* Main Styles End */
+
+/* ============================================= */

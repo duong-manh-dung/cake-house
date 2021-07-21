@@ -47,6 +47,7 @@
 }
 
 .top-content {
+  font-family: 'Nunito', sans-serif;
   color: #FFFCF9;
   margin-bottom: 20px;
 }
@@ -62,10 +63,13 @@
 }
 
 .is-3 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
   color: #FFFCF9;
 }
 
 .middle-footer-conter {
+  font-family: 'Nunito', sans-serif;
   color: #FFFCF9;
 }
 
@@ -74,10 +78,12 @@
 }
 
 label {
+  font-family: 'Nunito', sans-serif;
   color: #FFFCF9;
 }
 
 .input {
+  font-family: 'Nunito', sans-serif;
   width: 50%;
 }
 
